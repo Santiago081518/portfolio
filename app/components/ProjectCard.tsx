@@ -113,7 +113,7 @@ export default function ProjectCard({
         </div>
 
         {/* BUTTONS */}
-        <div className="flex gap-4 pt-2">
+        <div className="flex flex-wrap gap-3 pt-2">
           <a
             href={demoUrl}
             target="_blank"
@@ -129,6 +129,9 @@ export default function ProjectCard({
             hover:scale-105
             hover:shadow-lg
             hover:shadow-cyan-500/30
+            inline-flex
+            items-center
+            justify-center
           "
           >
             Demo
@@ -149,6 +152,9 @@ export default function ProjectCard({
                 transition-all
                 duration-300
                 hover:border-cyan-400/40
+                inline-flex
+                items-center
+                justify-center
               "
               >
                 Frontend
@@ -169,6 +175,9 @@ export default function ProjectCard({
                 transition-all
                 duration-300
                 hover:border-cyan-400/40
+                inline-flex
+                items-center
+                justify-center
               "
               >
                 Backend

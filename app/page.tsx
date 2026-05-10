@@ -101,17 +101,69 @@ export default function Home() {
 
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row flex-wrap gap-4 pt-2">
-                <button className="w-full sm:w-auto px-8 py-4 bg-cyan-400 text-black font-semibold rounded-2xl hover:scale-105 transition duration-300 shadow-lg shadow-cyan-500/20">
+
+                <a
+                  href="#projects"
+                  className="
+                    inline-flex
+                    items-center
+                    justify-center
+                    px-8
+                    py-4
+                    bg-cyan-400
+                    text-black
+                    font-semibold
+                    rounded-2xl
+                    hover:scale-105
+                    transition
+                    duration-300
+                    shadow-lg
+                    shadow-cyan-500/20
+                  "
+                >
                   Ver Proyectos
-                </button>
+                </a>
 
-                <button className="w-full sm:w-auto px-8 py-4 border border-zinc-700 rounded-2xl hover:bg-zinc-900 transition duration-300">
+                <a
+                  href="https://github.com/Santiago081518"
+                  target="_blank"
+                  className="
+                    inline-flex
+                    items-center
+                    justify-center
+                    px-8
+                    py-4
+                    border
+                    border-zinc-700
+                    rounded-2xl
+                    hover:bg-zinc-900
+                    transition
+                    duration-300
+                  "
+                >
                   GitHub
-                </button>
+                </a>
 
-                <button className="w-full sm:w-auto px-8 py-4 border border-zinc-700 rounded-2xl hover:bg-zinc-900 transition duration-300">
-                  LinkedIn
-                </button>
+                <a
+                  href="https://wa.me/573118436733"
+                  target="_blank"
+                  className="
+                    inline-flex
+                    items-center
+                    justify-center
+                    px-8
+                    py-4
+                    border
+                    border-zinc-700
+                    rounded-2xl
+                    hover:bg-zinc-900
+                    transition
+                    duration-300
+                  "
+                >
+                  WhatsApp
+                </a>
+
               </div>
             </div>
           </FadeIn>
