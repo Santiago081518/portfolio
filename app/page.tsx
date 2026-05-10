@@ -203,10 +203,10 @@ export default function Home() {
 
               <ProjectCard
                 title="Softphone WebRTC"
-                description="Softphone web en tiempo real desarrollado con WebRTC y SIP.js para gestión de llamadas desde navegador."
-                image="/images/mensajeria.png"
-                demoUrl="https://TU-DEMO.com"
-                githubFrontend="https://github.com/TU-REPO"
+                description="Softphone web en tiempo real con WebRTC y SIP.js. Soporta 2 líneas simultáneas, transferencia de llamadas, modo espera, teclado DTMF, ACW con tipificación y llamadas entrantes/salientes desde el navegador."
+                image="/images/SoftphoneDemo.png"
+                demoUrl="https://demo-softphone.vercel.app/"
+                githubFrontend="https://github.com/Santiago081518/demo-softphone"
                 tech={[
                   "React",
                   "WebRTC",
